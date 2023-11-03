@@ -1,7 +1,2 @@
-/* Styles to be applied to the Home page. Can be re-used also in globals.css */
+/* Styles to be applied to "Home" in index.js (Wie Attrbute aufrufen)*/
 
-
-/* wird nicht gelesen, noch mal bei Next über CSS modules nachlesen*/
-a.btn.btn-secondary {
-    margin-left: 40px;
-}
