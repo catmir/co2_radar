@@ -1,3 +1,5 @@
+## Welcome to CO2 Radar
+
 This is an university project based on [Next.js](https://nextjs.org/) with the aim of developing an interactive and responsive website for a fictional non-profit environmental organisation. All data is fictional unless otherwise stated. 
 
 ## To run the CO2 Radar Webiste
