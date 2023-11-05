@@ -1,4 +1,5 @@
 //Browser language detection component with disabled SSR and client-side rendering
+import Link from "next/link"
 import styles from '@/styles/Language.module.css' 
 
 const Language = () => {
@@ -17,16 +18,16 @@ const Language = () => {
               <div className="container-fluid">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link" href="/report-2022">Report 2022</a>
+                    <Link className="nav-link" href="/report-2022">Report 2022</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/report-2021">Report 2021</a>
+                    <Link className="nav-link" href="/report-2021">Report 2021</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/report-2020">Report 2020</a>
+                    <Link className="nav-link" href="/report-2020">Report 2020</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/more-reports">More</a>
+                    <Link className="nav-link" href="/more-reports">More</Link>
                   </li>
                 </ul>
               </div>
@@ -40,16 +41,16 @@ const Language = () => {
           <div className="container-fluid">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="/report-2022">Report 2022</a>
+                <Link className="nav-link" href="/report-2022">Report 2022</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/report-2021">Report 2021</a>
+                <Link className="nav-link" href="/report-2021">Report 2021</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/report-2020">Report 2020</a>
+                <Link className="nav-link" href="/report-2020">Report 2020</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/more-reports">More</a>
+                <Link className="nav-link" href="/more-reports">More</Link>
               </li>
             </ul>
           </div>
