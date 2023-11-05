@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Lato } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 import "../styles/globals.css";
 import { useEffect } from "react";
 
-const lato = Lato({ 
-  weight: ['100', '300', '400', '700', '900'],
+const notoSans = Noto_Sans({ 
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ['latin'],
   display: 'swap', 
 })
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   return ( 
-    <div className={lato.className}>
+    <div className={notoSans.className}>
       <Component {...pageProps} />
     </div>
   )
