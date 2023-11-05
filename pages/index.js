@@ -43,7 +43,7 @@ export default function Home() {
             <div className="d-flex justify-content-center align-items-center h-100">
               <div className="text-white">
                 <h1 className="mb-3">CO<sub>2</sub> Radar</h1>
-                <h4 className="mb-3">Observing the World's Polluters</h4>
+                <h2 className="mb-3">Observing the World's Polluters</h2>
                 <Link className="btn btn-outline-light btn-lg" href="#home" role="button">Latest report</Link>
               </div>
             </div>
