@@ -17,16 +17,16 @@ const Language = () => {
               <div className="container-fluid">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Report 2022</a>
+                    <a className="nav-link" href="/report-2022">Report 2022</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Report 2021</a>
+                    <a className="nav-link" href="/report-2021">Report 2021</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Report 2020</a>
+                    <a className="nav-link" href="/report-2020">Report 2020</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">More</a>
+                    <a className="nav-link" href="/more-reports">More</a>
                   </li>
                 </ul>
               </div>
@@ -40,16 +40,16 @@ const Language = () => {
           <div className="container-fluid">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#">Report 2022</a>
+                <a className="nav-link" href="/report-2022">Report 2022</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Report 2021</a>
+                <a className="nav-link" href="/report-2021">Report 2021</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Report 2020</a>
+                <a className="nav-link" href="/report-2020">Report 2020</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">More</a>
+                <a className="nav-link" href="/more-reports">More</a>
               </li>
             </ul>
           </div>
