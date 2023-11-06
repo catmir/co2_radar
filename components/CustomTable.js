@@ -51,11 +51,12 @@ const CustomTable = () => {
     
     return (
         <div>
-            <span><input type="text" onChange={handleFilter} placeholder="Search Company"/></span>
-            <span><input type="text" onChange={handleFilter2} placeholder="Search Country"/></span>
+            <span><input type="text" id="companySearch" onChange={handleFilter} placeholder="Search Company"/></span>
+            <span><input type="text" id="countrySearch" onChange={handleFilter2} placeholder="Search Country"/></span>
             <DataTable
                 columns={columns}
                 data={polluters}
+                striped={true}
                 pagination
                 fixedHeader
             />

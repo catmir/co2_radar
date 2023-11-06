@@ -1,4 +1,20 @@
+/* React Data Table Styles */
 
+input#countrySearch {
+    margin-left: 16px;
+}
+
+.rdt_TableCol {
+    font-size: 18px;
+}
+
+.rdt_TableCell {
+    font-size: 16px;
+}
+
+.rdt_Pagination {
+    font-size: 16px;
+}
 
 
 
