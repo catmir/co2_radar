@@ -13,7 +13,8 @@
     "next": "^13.5.4",
     "react": "latest",
     "react-data-table-component": "^7.5.4",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "eslint": "latest",
