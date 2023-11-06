@@ -28,7 +28,7 @@ const CustomTable = () => {
             sortable: true
         },
         {
-            name: "CO2",
+            name: "CO2 (in metric tons)",
             selector: row => row.co2,
             sortable: true
         }

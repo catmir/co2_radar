@@ -3,246 +3,246 @@
    "rank": 1,
    "companyName": "Rio Tinto",
    "country": "United Kingdom",
-   "co2": "614.200.000"
+   "co2": 614200000
  },
  {
    "rank": 2,
    "companyName": "Vale SA",
    "country": "Brazil",
-   "co2": "486.700.000"
+   "co2": 486700000
  },
  {
    "rank": 3,
    "companyName": "BHP",
    "country": "Australia",
-   "co2": "380.300.000"
+   "co2": 380300000
  },
  {
    "rank": 4,
    "companyName": "Glencore",
    "country": "Switzerland",
-   "co2": "370.100.000"
+   "co2": 370100000
  },
  {
    "rank": 5,
    "companyName": "Fortescue Metals Group",
    "country": "Australia",
-   "co2": "257.010.000"
+   "co2": 257010000
  },
  {
    "rank": 6,
    "companyName": "China Shenhua Energy",
    "country": "China",
-   "co2": "176.000.000"
+   "co2": 176000000
  },
  {
    "rank": 7,
    "companyName": "Sinopec",
    "country": "China",
-   "co2": "137.720.000"
+   "co2": 137720000
  },
  {
    "rank": 8,
    "companyName": "ArcelorMittal SA",
    "country": "Luxembourg",
-   "co2": "125.100.000"
+   "co2": 125100000
  },
  {
    "rank": 9,
    "companyName": "Petro China",
    "country": "China",
-   "co2": "119.680.000"
+   "co2": 119680000
  },
  {
    "rank": 10,
    "companyName": "Vedanta",
    "country": "India",
-   "co2": "101.620.000"
+   "co2": 101620000
  },
  {
    "rank": 11,
    "companyName": "ExxonMobil",
    "country": "United States of America",
-   "co2": "96.000.000"
+   "co2": 96000000
  },
  {
    "rank": 12,
    "companyName": "Chevron",
    "country": "United States of America",
-   "co2": "53.000.000"
+   "co2": 53000000
  },
  {
    "rank": 13,
    "companyName": "Saudi Aramco",
    "country": "Saudi Arabia",
-   "co2": "52.300.000"
+   "co2": 52300000
  },
  {
    "rank": 14,
    "companyName": "Shell",
    "country": "United Kingdom",
-   "co2": "51.000.000"
+   "co2": 51000000
  },
  {
    "rank": 15,
    "companyName": "JSW Steel",
    "country": "India",
-   "co2": "50.700.000"
+   "co2": 50700000
  },
  {
    "rank": 16,
    "companyName": "Petrobras",
    "country": "Brazil",
-   "co2": "47.600.000"
+   "co2": 47600000
  },
  {
    "rank": 17,
    "companyName": "ENI",
    "country": "Italy",
-   "co2": "39.390.000"
+   "co2": 39390000
  },
  {
    "rank": 18,
    "companyName": "TotalEnergies",
    "country": "France",
-   "co2": "38.000.000"
+   "co2": 38000000
  },
  {
    "rank": 19,
    "companyName": "BP",
    "country": "United Kingdom",
-   "co2": "30.000.000"
+   "co2": 30000000
  },
  {
    "rank": 20,
    "companyName": "Nucor Corp",
    "country": "United States of America",
-   "co2": "20.300.000"
+   "co2": 20300000
  },
  {
    "rank": 21,
    "companyName": "thyssenkrupp Steel Europe",
    "country": "Germany",
-   "co2": "16.200.000"
+   "co2": 16200000
  },
  {
    "rank": 22,
    "companyName": "Salzgitter Flachstahl",
    "country": "Germany",
-   "co2": "7.300.000"
+   "co2": 7300000
  },
  {
    "rank": 23,
    "companyName": "Huettenwerke Krupp Mannesmann",
    "country": "Germany",
-   "co2": "7.100.000"
+   "co2": 7100000
  },
  {
    "rank": 24,
    "companyName": "Samsung",
    "country": "South Korea",
-   "co2": "5.972.000"
+   "co2": 5972000
  },
  {
    "rank": 25,
    "companyName": "ArcelorMittal Bremen",
    "country": "Germany",
-   "co2": "5.900.000"
+   "co2": 5900000
  },
  {
    "rank": 26,
    "companyName": "ROGESA Roheisengesellschaft Saar",
    "country": "Germany",
-   "co2": "4.000.000"
+   "co2": 4000000
  },
  {
    "rank": 27,
    "companyName": "TSMC",
    "country": "Taiwan",
-   "co2": "2.018.789"
+   "co2": 2018789
  },
  {
    "rank": 28,
    "companyName": "Rheinkalk",
    "country": "Germany",
-   "co2": "1.800.000"
+   "co2": 1800000
  },
  {
    "rank": 29,
    "companyName": "Carnival Corporation & plc",
    "country": "United States of America",
-   "co2": "1.800.000"
+   "co2": 1800000
  },
  {
    "rank": 30,
    "companyName": "MSC Cruises",
    "country": "Switzerland",
-   "co2": "1.400.000"
+   "co2": 1400000
  },
  {
    "rank": 31,
    "companyName": "Intel",
    "country": "United States of America",
-   "co2": "1.190.865"
+   "co2": 1190865
  },
  {
    "rank": 32,
    "companyName": "CEMEX Zement",
    "country": "Germany",
-   "co2": "1.100.000"
+   "co2": 1100000
  },
  {
    "rank": 33,
    "companyName": "Holcim",
    "country": "Germany",
-   "co2": "1.000.000"
+   "co2": 1000000
  },
  {
    "rank": 34,
    "companyName": "Royal Caribbean International",
    "country": "United States of America",
-   "co2": "800.000"
+   "co2": 800000
  },
  {
    "rank": 35,
    "companyName": "Microsoft",
    "country": "United States of America",
-   "co2": "139.413"
+   "co2": 139413
  },
  {
    "rank": 36,
    "companyName": "QUALCOMM",
    "country": "United States of America",
-   "co2": "104.850"
+   "co2": 104850
  },
  {
    "rank": 37,
    "companyName": "Meta",
    "country": "United States of America",
-   "co2": "55.000"
+   "co2": 55000
  },
  {
    "rank": 38,
    "companyName": "Alphabet (Google)",
    "country": "United States of America",
-   "co2": "45.073"
+   "co2": 45073
  },
  {
    "rank": 39,
    "companyName": "Apple",
    "country": "United States of America",
-   "co2": "34.211"
+   "co2": 34211
  },
  {
    "rank": 40,
-   "companyName": "ASML",
+   "companyName": "Asml",
    "country": "Netherlands",
-   "co2": "17.300"
+   "co2": 17300
  },
  {
    "rank": 41,
    "companyName": "NVIDIA",
    "country": "United States of America",
-   "co2": "4.612"
+   "co2": 4612
  }
 ]
