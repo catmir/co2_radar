@@ -8,7 +8,7 @@ import Footer from '@/components/Footer'
 import dynamic from 'next/dynamic'
 import CustomTable from '@/components/CustomTable'
  
-/* Disable Server Side Rendering for use of window-Object in Browser */
+/* Disable Server Side Rendering for use of window object in Browser */
 const DynamicLanguage = dynamic(() => import('@/components/Language'), {
   ssr: false,
 })
