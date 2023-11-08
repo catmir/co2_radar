@@ -31,21 +31,19 @@ export default function Home() {
             <div className="row align-items-center pt-5 pb-2 pb-sm-3 mt-sm-4">
               <div className="col-6 text-light">
                 <h1 className="display-3 fw-bold text-uppercase pb-3 mb-4">Monitoring the World's Polluters</h1>
-                <p className="fs-5 fw-light pb-2 pb-md-4 pb-xl-5 mb-xl-2">Check out the latest carbondioxide emissions data we have collected from different companies all over the globe.</p>
+                <p className="fs-5 fw-light pb-2 pb-md-4 pb-xl-5 mb-xl-2">Take a look at the carbon dioxide emissons data that we are continuously collecting from companies around the globe.</p>
                 <div className="d-sm-flex">
-                  <Link className="btn btn-outline-light px-4 py-2 mb-sm-0 me-sm-3 me-lg-4" href="#" role="button">Latest reports</Link>
+                  <Link className="btn btn-outline-light px-4 py-2 mb-sm-0 me-sm-3 me-lg-4" href="#" role="button">Latest CO<sub>2</sub> Reports</Link>
                 </div>
               </div>
-              <div className="col-6 overflow-hidden d-none d-lg-block">
-                <img src="white-smoke-photo-marcin-jozwiak.jpg" className="rounded" style={{width: '100vh'}}/>
+              <div className="col-6 h-100 overflow-hidden d-none d-lg-block">
+                <img src="/white-smoke-photo-marcin-jozwiak.jpg" width='100%' height='100%' alt="Picture of carbon dioxide emitting factory"/>
               </div>
             </div>
           </div>
         </section>
 
-        <section>
 
-        </section>
         
 
 
