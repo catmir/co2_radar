@@ -81,9 +81,16 @@ export default function Home() {
               <h2 className="pb-1 pb-sm-2 mb-4">Our latest reports</h2>
             </div>
             <div className="col-8">
-              <p className="fs-5">We have been monitoring and documenting the CO<sub>2</sub> emissions of companies from all kinds of industries for many years.</p>
-              <p className="fs-5">Our wealth of data is a valuable source for politicians, journalists and environmental activists worldwide to better understand the extent of past and present greenhouse gas emissions.</p>
+              <p className="fs-5 fw-light">We have been monitoring and documenting the CO<sub>2</sub> emissions of companies from all kinds of industries for many years.</p>
+              <p className="fs-5 fw-light">Our wealth of data is a valuable source for politicians, journalists and environmental activists worldwide to better understand the extent of past and present greenhouse gas emissions.</p>
             </div>
+          </div>
+        </section>
+
+        <section className="card bg-success m-5 py-3">
+          <div className="card-body position-relative d-sm-flex align-items-center justify-content-evenly zindex-2 text-center">
+            <h2 className="card-text text-light">Do you want to support us?</h2>
+            <Link className="btn btn-light" href="#">Click here</Link>
           </div>
         </section>
         
