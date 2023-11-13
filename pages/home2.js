@@ -87,7 +87,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="card bg-success m-5 py-3">
+        <section className="card bg-primary m-5 py-3">
           <div className="card-body position-relative d-sm-flex align-items-center justify-content-evenly zindex-2 text-center">
             <h2 className="card-text text-light">Do you want to support us?</h2>
             <Link className="btn btn-light" href="/contribute">Click here</Link>

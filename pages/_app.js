@@ -1,6 +1,7 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+//import "bootstrap/dist/css/bootstrap.min.css";
+import '../styles/customBootstrap.scss'
+import '../styles/globals.css'
 import { Inter } from "next/font/google";
-import "../styles/globals.css";
 import { useEffect } from "react";
 
 const inter = Inter({ 
