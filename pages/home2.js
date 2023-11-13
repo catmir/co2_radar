@@ -36,7 +36,7 @@ export default function Home() {
                 <h1 className="display-3 text-uppercase fw-semibold pb-3 mb-4">Monitoring the World's Polluters</h1>
                 <p className="fs-5 fw-light pb-2 pb-md-4 pb-xl-5 mb-xl-2">Take a look at the carbon dioxide emissons data that we are continuously collecting from companies around the globe.</p>
                 <div className="d-sm-flex">
-                  <Link className="btn btn-outline-light px-4 py-2 mb-sm-0 me-sm-3 me-lg-4" href="#" role="button">Latest CO<sub>2</sub> Reports</Link>
+                  <Link className="btn btn-outline-light px-4 py-2 mb-sm-0 me-sm-3 me-lg-4" href="#latest-reports" role="button">Latest CO<sub>2</sub> Reports</Link>
                 </div>
               </div>
               <div className="col-6 h-100 overflow-hidden d-none d-lg-block">
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="container py-5 my-xl-3 my-xxl-5">
+        <section id="latest-reports" className="container py-5 my-xl-3 my-xxl-5">
           <div className="row pt-1 pt-sm-3 pt-md-4 pt-lg-5 mt-xl-2">
             <div className="col-4">
               <h2 className="pb-1 pb-sm-2 mb-4">Our latest reports</h2>
