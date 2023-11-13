@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
 import Head from 'next/head'
 import styles from "@/styles/Home.module.css"
@@ -31,7 +33,7 @@ export default function Home() {
           <div className="container position-relative zindex-2 py-md-3 py-lg-4 py-xl-5">
             <div className="row align-items-center pt-5 pb-2 pb-sm-3 mt-sm-4">
               <div className="col-6 text-light">
-                <h1 className={`display-3 text-uppercase pb-3 mb-4 ${styles.fontWeight}`}>Monitoring the World's Polluters</h1>
+                <h1 className="display-3 text-uppercase fw-semibold pb-3 mb-4">Monitoring the World's Polluters</h1>
                 <p className="fs-5 fw-light pb-2 pb-md-4 pb-xl-5 mb-xl-2">Take a look at the carbon dioxide emissons data that we are continuously collecting from companies around the globe.</p>
                 <div className="d-sm-flex">
                   <Link className="btn btn-outline-light px-4 py-2 mb-sm-0 me-sm-3 me-lg-4" href="#" role="button">Latest CO<sub>2</sub> Reports</Link>
@@ -49,25 +51,25 @@ export default function Home() {
             <div className="row">
               <div className="col-3 d-flex justify-content-md-center">
                 <div className="py-3 my-lg-2 my-xl-3">
-                  <div className={`text-dark display-2 text-center mb-1 ${styles.fontWeight}`}>41</div>
+                  <div className="text-dark fw-semibold display-2 text-center mb-1">41</div>
                   <p className="fs-xl text-center mb-0">Companies</p>
                 </div>
               </div>
               <div className="col-3 d-flex justify-content-md-center">
                 <div className="py-3 ps-xl-4 my-lg-2 my-xl-3">
-                  <div className={`text-dark display-2 text-center mb-1 ${styles.fontWeight}`}>15</div>
+                  <div className="text-dark fw-semibold display-2 text-center mb-1">15</div>
                   <p className="fs-xl text-center mb-0">Countries</p>
                 </div>
               </div>
               <div className="col-3 d-flex justify-content-md-center">
                 <div className="py-3 my-lg-2 my-xl-3">
-                  <div className={`text-dark display-2 text-center mb-1 ${styles.fontWeight}`}>3.3</div>
+                  <div className="text-dark fw-semibold display-2 text-center mb-1">3.3</div>
                   <p className="fs-xl text-center mb-0">Billion Tons of CO<sub>2</sub></p>
                 </div>
               </div>
               <div className="col-3 d-flex justify-content-md-center">
                 <div className="py-3 pe-xl-4 my-lg-2 my-xl-3">
-                  <div className={`text-dark display-2 text-center mb-1 ${styles.fontWeight}`}>24/7</div>
+                  <div className="text-dark fw-semibold display-2 text-center mb-1">24/7</div>
                   <p className="fs-xl text-center mb-0">Under Surveillance</p>
                 </div>
               </div>

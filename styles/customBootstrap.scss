@@ -1,11 +1,20 @@
+/* SCSS Bootstrap Overrides */
+
 $theme-colors: (
-  'primary': #cccccc,
-  'secondary': #3bd7ec,
-  'success': #22e11c,
-  'info': #d9ff50,
-  'warning': #ffbe0b,
-  'danger': #ff0000,
-  'light': #c0ccda,
-  'dark': #000103,
+  'primary': #3c7b66,
+  'secondary': #edf1f5,
+  'success': #3fca90,
+  'info': #3f7fca,
+  'warning': #edcb50,
+  'danger': #ed5050,
+  'light': #fff,
+  'dark': #121519,
 );
+
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-bolder: 800;
+
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
