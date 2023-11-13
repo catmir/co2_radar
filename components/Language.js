@@ -1,6 +1,6 @@
 //Browser language detection component with disabled SSR and client-side rendering
 import Link from "next/link"
-import styles from '@/styles/Language.module.css' 
+import styles from "@/styles/Language.module.css" 
 
 const Language = () => {
     const preferredLanguage = navigator.languages[0];
@@ -12,8 +12,7 @@ const Language = () => {
 
     if (rtlDirection === true){
         return (
-            <div dir="rtl" className={styles.navbar_rtl}>
-            <p className="fs-5">Our latest reports:</p>
+          <div dir="rtl">
             <nav className="navbar navbar-expand bg-light">
               <div className="container-fluid">
                 <ul className="navbar-nav">
@@ -35,27 +34,26 @@ const Language = () => {
           </div>  
         );
     } else return (
-        <div dir="ltr" className={styles.navbar_ltr}>
-        <p className="fs-5">Our latest reports:</p>
-        <nav className="navbar navbar-expand bg-light">
-          <div className="container-fluid">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link className="nav-link" href="/report-2022">Report 2022</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="/report-2021">Report 2021</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="/report-2020">Report 2020</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" href="/more-reports">More</Link>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>  
+        <div dir="ltr">
+          <nav className="navbar navbar-expand bg-light">
+            <div className="container-fluid px-0 mb-3">
+              <ul className="navbar-nav mb-2">
+                <li className="nav-item me-2">
+                  <Link className="nav-link text-primary fs-5 fw-medium px-4" style={{border: 'solid', borderRadius: '7px'}}href="/report-2022">Report 2022</Link>
+                </li>
+                <li className="nav-item me-2">
+                  <Link className="nav-link text-dark fs-5 fw-medium px-4" href="/report-2021">Report 2021</Link>
+                </li>
+                <li className="nav-item me-2">
+                  <Link className="nav-link text-dark fs-5 fw-medium px-4" href="/report-2020">Report 2020</Link>
+                </li>
+                <li className="nav-item me-2">
+                  <Link className="nav-link text-dark fs-5 fw-medium px-4" href="/more-reports">More</Link>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>  
     );
 }
 

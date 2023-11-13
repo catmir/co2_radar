@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-/* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link'
 import Head from 'next/head'
 import styles from "@/styles/Home.module.css"
@@ -36,7 +34,7 @@ export default function Home() {
                 <h1 className="display-3 text-uppercase fw-semibold pb-3 mb-4">Monitoring the World's Polluters</h1>
                 <p className="fs-5 fw-light pb-2 pb-md-4 pb-xl-5 mb-xl-2">Take a look at the carbon dioxide emissons data that we are continuously collecting from companies around the globe.</p>
                 <div className="d-sm-flex">
-                  <Link className="btn btn-outline-light px-4 py-2 mb-sm-0 me-sm-3 me-lg-4" href="#latest-reports" role="button">Latest CO<sub>2</sub> Reports</Link>
+                  <Link className="btn btn-outline-light fs-5 px-4 py-2 mb-sm-0 me-sm-3 me-lg-4" href="#latest-reports" role="button">Latest CO<sub>2</sub> Reports</Link>
                 </div>
               </div>
               <div className="col-6 h-100 overflow-hidden d-none d-lg-block">
@@ -83,6 +81,7 @@ export default function Home() {
               <h2 className="pb-1 pb-sm-2 mb-4">Our latest reports</h2>
             </div>
             <div className="col-8">
+              <DynamicLanguage/>
               <p className="fs-5 fw-light">We have been monitoring and documenting the CO<sub>2</sub> emissions of companies from all kinds of industries for many years.</p>
               <p className="fs-5 fw-light">Our wealth of data is a valuable source for politicians, journalists and environmental activists worldwide to better understand the extent of past and present greenhouse gas emissions.</p>
             </div>
