@@ -11,10 +11,18 @@ $theme-colors: (
   'dark': #121519,
 );
 
+$font-weight-light: 300;
 $font-weight-normal: 400;
 $font-weight-medium: 500;
 $font-weight-semibold: 600;
 $font-weight-bold: 700;
 $font-weight-bolder: 800;
+
+$navbar-dark-color: #edf1f5;
+$navbar-dark-hover-color: #7fc0aa;
+$navbar-dark-active-color: #a1d1c1;
+$navbar-dark-brand-color: #edf1f5;
+$navbar-dark-brand-hover-color: #7fc0aa;
+$navbar-dark-brand-active-color: #a1d1c1;
 
 @import '/node_modules/bootstrap/scss/bootstrap.scss';

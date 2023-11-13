@@ -17,9 +17,6 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-2 me-auto mb-2 mb-lg-0">
                         <li className="nav-item px-1">
-                            <Link href="/" className={pathname == "/" ? "nav-link active" : "nav-link"}>Home</Link>
-                        </li>
-                        <li className="nav-item px-1">
                             <Link href="/data-API" className={pathname == "/data-API" ? "nav-link active" : "nav-link"}>Data API</Link>
                         </li>
                         <li className="nav-item px-1">
