@@ -1,14 +1,10 @@
 /* General CSS Styling */
 section#report {
     margin-top: 10rem;
+    margin-bottom: 5rem;
 }
-
 
 /* React Data Table Styles */
-
-input#countrySearch {
-    margin-left: 16px;
-}
 
 .rdt_TableCol {
     font-size: 18px;
