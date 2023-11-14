@@ -82,13 +82,13 @@ export default function Home() {
             </div>
             <div className="col-8">
               <DynamicLanguage/>
-              <p className="fs-5 fw-light">We have been monitoring and documenting the CO<sub>2</sub> emissions of companies from all kinds of industries for many years.</p>
+              <p className="fs-5 fw-light pt-4">We have been monitoring and documenting the CO<sub>2</sub> emissions of companies from all kinds of industries for many years.</p>
               <p className="fs-5 fw-light">Our wealth of data is a valuable source for politicians, journalists and environmental activists worldwide to better understand the extent of past and present greenhouse gas emissions.</p>
             </div>
           </div>
         </section>
 
-        <section className="card bg-primary m-5 py-3">
+        <section className="card bg-primary mt-6 mx-5 py-3">
           <div className="card-body position-relative d-sm-flex align-items-center justify-content-evenly zindex-2 text-center">
             <h2 className="card-text text-light">Do you want to support us?</h2>
             <Link className="btn btn-light fs-5 fw-medium py-3 px-5" href="/contribute">Click here!</Link>
