@@ -1,3 +1,9 @@
+/* General CSS Styling */
+section#report {
+    margin-top: 10rem;
+}
+
+
 /* React Data Table Styles */
 
 input#countrySearch {
