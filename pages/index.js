@@ -26,7 +26,7 @@ export default function Home() {
       <main className="page-wrapper">
 
         <section className="bg-dark dark-mode position-relative pt-2 pb-5">
-          <div className="container position-relative zindex-2 py-md-3 py-lg-4 py-xl-5">
+          <div className="container position-relative zindex-2 py-md-3 py-lg-4">
             <div className="row align-items-center pt-5 pb-2 pb-sm-3 mt-sm-4">
               <div className="col-6 text-light">
                 <h1 className="display-3 text-uppercase fw-semibold pb-3 mb-4">Monitoring the World's Polluters</h1>

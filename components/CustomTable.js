@@ -28,7 +28,7 @@ const CustomTable = () => {
             sortable: true
         },
         {
-            name: "CO2 (in metric tons)",
+            name: "CO\u2082 (in metric tons)",
             selector: row => row.co2,
             sortable: true
         }
@@ -50,12 +50,13 @@ const CustomTable = () => {
     
     
     return (
-        <div className="row">
-            <div className="col-4">
-                <span><input type="text" id="companySearch" onChange={handleFilter} placeholder="Search Company"/></span>
-                <span><input type="text" id="countrySearch" onChange={handleFilter2} placeholder="Search Country"/></span>
+        <>
+            <div className="row">
+                <div className="col-3"></div>
+                <div className="col-3"><input type="text" id="companySearch" onChange={handleFilter} placeholder="Search Company"/></div>
+                <div className="col-3"><input type="text" id="countrySearch" onChange={handleFilter2} placeholder="Search Country"/></div>
             </div>
-            <div className="col-8">
+            <div className="row mt-4">
                 <DataTable
                     columns={columns}
                     data={polluters}
@@ -64,7 +65,7 @@ const CustomTable = () => {
                     fixedHeader
                 />
             </div>
-        </div>
+        </>
     )
 }
 
