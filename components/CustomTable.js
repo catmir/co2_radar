@@ -30,7 +30,8 @@ const CustomTable = () => {
         {
             name: "CO\u2082 (in metric tons)",
             selector: row => row.co2,
-            sortable: true
+            sortable: true,
+            cell: data => data.co2.toLocaleString()
         }
     ]
 
