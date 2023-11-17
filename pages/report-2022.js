@@ -33,9 +33,9 @@ export default function Report2022() {
 
             <section className="container my-5 py-5">
               <div className="row">
-                <h2 className="text-center pb-1 pb-sm-2 mb-4">Selection of CO<sub>2</sub> Emitters<sup>1</sup></h2>
+                <h2 className="text-center text-primary fw-medium pb-1 pb-sm-2 mb-4">Selection of CO<sub>2</sub> Emitters<sup>1</sup></h2>
                 <CustomTable/>
-                <p><sup>1</sup> Sources: xxx</p>
+                <p style={{color: "#434a57"}}><sup>1</sup> Sources: xxx</p>
               </div>
             </section>
 

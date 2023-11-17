@@ -64,6 +64,16 @@ const CustomTable = () => {
                     striped={true}
                     pagination
                     fixedHeader
+                    customStyles={{
+                        rows: {
+                            style: {
+                                backgroundColor: "#fff",
+                              },
+                              stripedStyle: {
+                                backgroundColor: "#f6f9fc"
+                              }
+                        },
+                      }}
                 />
             </div>
         </>
