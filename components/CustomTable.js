@@ -61,6 +61,7 @@ const CustomTable = () => {
                 <DataTable
                     columns={columns}
                     data={polluters}
+                    noDataComponent="Sorry, I haven't found any records for that. Please check the spelling."
                     striped={true}
                     pagination
                     fixedHeader
