@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CustomTable from '@/components/CustomTable';
+import Link from "next/link";
 
 export default function Report2022() {
     const title = 'CO\u2082 Radar – Report 2022';
@@ -35,7 +36,15 @@ export default function Report2022() {
               <div className="row">
                 <h2 className="text-center text-primary fw-medium pb-1 pb-sm-2 mb-4">Selection of CO<sub>2</sub> Emitters<sup>1</sup></h2>
                 <CustomTable/>
-                <p style={{color: "#434a57"}}><sup>1</sup> Sources: xxx</p>
+                <div className="mt-5" style={{color: "#434a57"}}>
+                  <h3 className="fs-5 pb-2" style={{color: "#121519"}}><sup>1</sup> Sources:</h3>
+                  <p>Statista. (17. Mai 2023). Direct greenhouse gas emissions of largest oil companies worldwide in 2022 (in million metric tons of CO2-equivalent) [Graph]. Link: <Link className="text-primary" href="https://www-statista-com.pxz.iubh.de:8443/statistics/1267242/greenhouse-gas-emissions-of-select-oil-companies/">Statista</Link>.</p>
+                  <p>Statista. (24. Juli 2023). Scope 1 greenhouse gas emissions from leading tech companies worldwide in 2022, by company (in metric tons of CO2 equivalent) [Graph]. Link: <Link className="text-primary" href="https://www-statista-com.pxz.iubh.de:8443/statistics/1250461/greenhouse-gas-emissions-scope-1-top-tech-companies-worldwide/">Statista</Link>.</p>
+                  <p>Statista. (25. August 2023). Total greenhouse gas emissions of selected major metal and mining companies worldwide in 2022 (in million metric tons of carbon dioxide equivalent) [Graph]. Link: <Link className="text-primary" href="https://www-statista-com.pxz.iubh.de:8443/statistics/1409024/metal-mining-emissions-of-greenhouse-gases-by-company/">Statista</Link>.</p>
+                  <p>Transport & Environment. (13. Juli 2023). Ranking der Kreuzfahrtunternehmen in Europa nach Höhe der ausgestoßenen CO2-Emissionen im Jahr 2022 (in Millionen Tonnen Kohlendioxid) [Graph]. Link: <Link className="text-primary" href="https://de-statista-com.pxz.iubh.de:8443/statistik/daten/studie/1412754/umfrage/kreuzfahrtunternehmen-in-europa-nach-hoehe-der-co%25E2%2582%2582-emissionen/">Statista</Link>.</p>
+                  <p>WWF. (6. Juni 2023). Jährliche Emissionen der größten Emittenten in der deutschen Industrie im Jahr 2022 (in Mio. Tonnen CO2) [Graph]. Link: <Link className="text-primary" href="https://de-statista-com.pxz.iubh.de:8443/statistik/daten/studie/1389225/umfrage/groessten-emittenten-der-deutschen-industrie/">Statista</Link>.</p>
+                </div>
+
               </div>
             </section>
 
