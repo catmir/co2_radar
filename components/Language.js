@@ -13,16 +13,16 @@ const Language = () => {
         return (
           <div dir="rtl">
             <ul className="nav nav-pills mb-4">
-              <li className="nav-item me-3">
+              <li className="nav-item me-xl-3">
                 <Link className="nav-link active bg-primary fs-5" href="/report-2022">Report 2022</Link>
               </li>
-              <li className="nav-item me-2">
+              <li className="nav-item me-xl-2">
                 <Link className="nav-link fs-5" href="/report-2021">Report 2021</Link>
               </li>
-              <li className="nav-item me-2">
+              <li className="nav-item me-xl-2">
                 <Link className="nav-link fs-5" href="/report-2020">Report 2020</Link>
               </li>
-              <li className="nav-item me-2">
+              <li className="nav-item me-xl-2">
                 <Link className="nav-link fs-5" href="/more-reports">More Reports</Link>
               </li>
             </ul>
@@ -31,16 +31,16 @@ const Language = () => {
     } else return (
         <div dir="ltr">
           <ul className="nav nav-pills mb-4">
-            <li className="nav-item me-3">
+            <li className="nav-item me-xl-3">
               <Link className="nav-link active bg-primary fs-5" href="/report-2022">Report 2022</Link>
             </li>
-            <li className="nav-item me-2">
+            <li className="nav-item me-xl-2">
               <Link className="nav-link fs-5" href="/report-2021">Report 2021</Link>
             </li>
-            <li className="nav-item me-2">
+            <li className="nav-item me-xl-2">
               <Link className="nav-link fs-5" href="/report-2020">Report 2020</Link>
             </li>
-            <li className="nav-item me-2">
+            <li className="nav-item me-xl-2">
               <Link className="nav-link fs-5" href="/more-reports">More Reports</Link>
             </li>
           </ul>
