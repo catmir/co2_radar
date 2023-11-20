@@ -20,11 +20,11 @@ const Header = () => {
                                 <Link className="nav-link dropdown-toggle" href="/reports" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Reports
                                 </Link>
-                                <ul className="dropdown-menu">
-                                    <li><Link className="dropdown-item" href="/report-2022">Report 2022</Link></li>
-                                    <li><Link className="dropdown-item" href="/report-2021">Report 2021</Link></li>
-                                    <li><Link className="dropdown-item" href="/report-2020">Report 2020</Link></li>
-                                    <li><Link className="dropdown-item" href="/more-reports">More Reports</Link></li>
+                                <ul className="dropdown-menu dropdown-menu-dark mt-2">
+                                    <li><Link className="dropdown-item py-2" href="/report-2022">Report 2022</Link></li>
+                                    <li><Link className="dropdown-item py-2" href="/report-2021">Report 2021</Link></li>
+                                    <li><Link className="dropdown-item py-2" href="/report-2020">Report 2020</Link></li>
+                                    <li><Link className="dropdown-item py-2" href="/more-reports">More Reports</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item px-1">
