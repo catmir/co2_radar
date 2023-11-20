@@ -32,4 +32,13 @@ $nav-pills-active-bg: #3c7b66;
 
 $btn-hover-bg: #edf1f5;
 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
 @import '/node_modules/bootstrap/scss/bootstrap.scss';

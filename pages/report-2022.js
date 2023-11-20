@@ -25,16 +25,16 @@ export default function Report2022() {
                 <div className="row align-items-start pt-5 pb-2 pb-sm-3 mt-sm-4">
                   <h1 className="text-light fs-1 fw-semibold lh-base">Our CO<sub>2</sub> Report for 2022</h1>
                   <div className="row align-items-start pt-3 pb-2 pb-sm-3 mt-sm-4">
-                    <p className="col-6 text-light fs-5 fw-light">Last year was characterized by the recovery of the economy after the recessionary years during the Covid-19 pandemic. Industrial production returned to pre-pandemic levels in almost all countries worldwide.</p>
-                    <p className="col-6 text-light fs-5 fw-light">At the same time, CO<sub>2</sub> emissions unfortunately rose to familiar heights. Please find an excerpt of the 41 largest CO<sub>2</sub> emitters<sup>1</sup> (in metric tons) in the table below, filterable by company name and country of origin.</p>
+                    <p className="col-md-6 text-light fs-5 fw-light">Last year was characterized by the recovery of the economy after the recessionary years during the Covid-19 pandemic. Industrial production returned to pre-pandemic levels in almost all countries worldwide.</p>
+                    <p className="col-md-6 text-light fs-5 fw-light">At the same time, CO<sub>2</sub> emissions unfortunately rose to familiar heights. Please find an excerpt of the 41 largest CO<sub>2</sub> emitters<sup>1</sup> (in metric tons) in the table below, filterable by company name and country of origin.</p>
                   </div>
                 </div>
               </div>
             </section>
 
-            <section className="container my-5 py-5">
+            <section className="container my-md-5 py-md-5">
               <div className="row">
-                <h2 className="text-center text-primary fw-medium pb-1 pb-sm-2 mb-4">Selection of CO<sub>2</sub> Emitters<sup>1</sup></h2>
+                <h2 className="text-xl-center text-primary fw-medium pb-1 pb-sm-2 mb-4">Selection of CO<sub>2</sub> Emitters<sup>1</sup></h2>
                 <CustomTable/>
                 <div className="mt-5" style={{color: "#434a57"}}>
                   <h3 className="fs-5 pb-2" style={{color: "#121519"}}><sup>1</sup> Sources:</h3>

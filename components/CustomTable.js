@@ -52,10 +52,10 @@ const CustomTable = () => {
     
     return (
         <>
-            <div className="row py-4">
-                <div className="col-3"></div>
-                <div className="col-3 fs-5"><input type="text" id="companySearch" onChange={handleFilter} placeholder="Search Company"/></div>
-                <div className="col-3 fs-5"><input type="text" id="countrySearch" onChange={handleFilter2} placeholder="Search Country"/></div>
+            <div className="row py-3 py-xl-4">
+                <div className="d-none d-xl-block col-lg-3"></div>
+                <div className="col-lg-3 fs-5"><input type="text" id="companySearch" onChange={handleFilter} placeholder="Search Company"/></div>
+                <div className="col-lg-3 fs-5 mt-3 mt-lg-0"><input type="text" id="countrySearch" onChange={handleFilter2} placeholder="Search Country"/></div>
             </div>
             <div className="row mt-4">
                 <DataTable
