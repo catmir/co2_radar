@@ -1,17 +1,15 @@
 import Head from "next/head";
-import Image from "next/image";
-/* missing Styles import */
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export default function DataAPI() {
-  const title = 'CO\u2082 Radar – Data API';
+export default function Reports() {
+  const title = 'CO\u2082 Radar – Reports';
 
   return (
         <>
         <Head>
           <title>{title}</title>
-          <meta name="description" content="Latest CO2 Data" />
+          <meta name="description" content="Latest CO2 Reports" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -20,7 +18,7 @@ export default function DataAPI() {
   
         <main>
         <div className="container my-5">
-          <h1>Data API</h1>
+          <h1>Reports</h1>
           <div className="col-lg-8 px-0">
             <p className="fs-5">Descriptive Text</p>
   
