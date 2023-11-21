@@ -44,10 +44,9 @@ export default function Report2022() {
                   <p>Transport & Environment. (13. Juli 2023). Ranking der Kreuzfahrtunternehmen in Europa nach Höhe der ausgestoßenen CO2-Emissionen im Jahr 2022 (in Millionen Tonnen Kohlendioxid) [Graph]. Link: <Link className="text-primary" href="https://de-statista-com.pxz.iubh.de:8443/statistik/daten/studie/1412754/umfrage/kreuzfahrtunternehmen-in-europa-nach-hoehe-der-co%25E2%2582%2582-emissionen/">Statista</Link>.</p>
                   <p>WWF. (6. Juni 2023). Jährliche Emissionen der größten Emittenten in der deutschen Industrie im Jahr 2022 (in Mio. Tonnen CO2) [Graph]. Link: <Link className="text-primary" href="https://de-statista-com.pxz.iubh.de:8443/statistik/daten/studie/1389225/umfrage/groessten-emittenten-der-deutschen-industrie/">Statista</Link>.</p>
                 </div>
-
               </div>
             </section>
-
+            
           </main>
     
           <Footer/>
