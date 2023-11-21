@@ -20,7 +20,7 @@ export default function Report2022() {
     
           <main className="page-wrapper">
 
-            <section id="report" className="bg-dark dark-mode position-relative pt-5 pb-5">
+            <section id="report" className="bg-dark dark-mode position-relative py-5">
               <div className="container position-relative zindex-2 py-md-3 py-lg-5">
                 <div className="row align-items-start pt-5 pb-2 pb-sm-3 mt-sm-4">
                   <h1 className="text-light fs-1 fw-semibold lh-base">Our CO<sub>2</sub> Report for 2022</h1>
@@ -32,9 +32,9 @@ export default function Report2022() {
               </div>
             </section>
 
-            <section className="container my-md-5 py-md-5">
+            <section className="container my-5 py-lg-4">
               <div className="row">
-                <h2 className="text-xl-center text-primary fw-medium pb-1 pb-sm-2 mb-4">Selection of CO<sub>2</sub> Emitters<sup>1</sup></h2>
+                <h2 className="text-lg-center text-primary fw-medium pb-1 pb-sm-2 mb-4">Selection of CO<sub>2</sub> Emitters<sup>1</sup></h2>
                 <CustomTable/>
                 <div className="mt-5" style={{color: "#434a57"}}>
                   <h3 className="fs-5 pb-2" style={{color: "#121519"}}><sup>1</sup> Sources:</h3>
