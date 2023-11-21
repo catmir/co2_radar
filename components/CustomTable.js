@@ -15,22 +15,27 @@ const CustomTable = () => {
         {
             name: "Rank",
             selector: row => row.rank,
-            sortable: true
+            sortable: true,
+            width: "15%"
         },
         {
             name: "Company Name",
             selector: row => row.companyName,
-            sortable: true
+            sortable: true,
+            width: "35%"
         },
         {
             name: "Country",
             selector: row => row.country,
-            sortable: true
+            sortable: true,
+            width: "30%"
         },
         {
             name: "CO\u2082 (in metric tons)",
             selector: row => row.co2,
             sortable: true,
+            width: "20%",
+            wrap: false,
             cell: data => data.co2.toLocaleString()
         }
     ]
