@@ -1,5 +1,3 @@
-/* Footer with Terms & Conditions and Copyright */
-
 import Link from "next/link";
 
 const Footer = () => {

@@ -1,4 +1,9 @@
 /* General CSS Styles */
+
+.dropdown-item:hover {
+    background-color: #3c7b66;
+}
+
 input {
     border-radius: 0.75rem;
     border: 1px solid #d7dde2;
