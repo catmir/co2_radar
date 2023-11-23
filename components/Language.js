@@ -5,7 +5,7 @@ const Language = () => {
     const preferredLanguage = navigator.languages[0];
     
     //ISO codes of the 12 main right-to-left (RTL) languages
-    const rtlLanguages = ['ar', 'arc', 'dv', 'fa', 'ha', 'he', 'khw', 'ks', 'ku', 'ps', 'ur', 'yi'];
+    const rtlLanguages = ['ar', 'ar-EG', 'ar-DZ', 'ar-BH', 'ar-IQ', 'ar-YE', 'ar-JO', 'ar-QA', 'ar-KW', 'ar-LB', 'ar-LY', 'ar-MA', 'ar-OM', 'ar-SA', 'ar-SY', 'ar-TU', 'ar-AE', 'arc', 'dv', 'fa', 'ha', 'he', 'khw', 'ks', 'ku', 'ps', 'ur', 'yi'];
             
     let rtlDirection = rtlLanguages.includes(preferredLanguage);
 
