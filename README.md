@@ -4,7 +4,10 @@ This is an university project based on [Next.js](https://nextjs.org/) with the a
 
 ## To run the CO2 Radar Website
 
-First, run the development server:
+First, install the necessary Node modules from package.json with: 
+npm install
+
+Then run the development server:
 
 ```bash
 npm run dev
