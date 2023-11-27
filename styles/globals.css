@@ -1,5 +1,9 @@
 /* General CSS Styles */
 
+#navbarBrand {
+    padding-top: 6px;
+}
+
 .dropdown-item:hover {
     background-color: #3c7b66;
 }

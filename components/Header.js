@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const Header = () => {
@@ -7,8 +8,11 @@ const Header = () => {
     return (
         <header>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fs-5 fixed-top py-3">
-                <div className="container">
-                    <Link className="navbar-brand" href="/">CO<sub>2</sub> Radar</Link>
+                <div className="container align-items-top">
+                    <Link className="navbar-brand" id="navbarBrand" href="/">
+                        <Image src="/logo-co2-radar.svg" alt="Logo CO2 Radar" width={30} height={30}/>
+                        <span className="ms-2">CO<sub>2</sub> Radar</span>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
