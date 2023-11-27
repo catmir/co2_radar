@@ -29,7 +29,7 @@ export default function Home() {
           <div className="container position-relative zindex-2 py-5 py-md-4">
             <div className="row row-cols-lg-2 align-items-center pt-5 pb-2 pb-sm-3 mt-sm-4">
               <div className="col text-light">
-                <h1 className="display-3 text-uppercase fw-semibold text-center text-md-start pb-3 mb-4">Monitoring the World's Polluters</h1>
+                <h1 className="display-3 text-uppercase fw-semibold text-center text-md-start pb-3 mb-4">Monitoring the World&apos;s Polluters</h1>
                 <p className="fs-5 fw-light text-center text-md-start pb-4 pb-xl-5 mb-xl-2">Take a look at the carbon dioxide emissons data that we are continuously collecting from companies around the globe.</p>
                 <div className="text-center text-md-start">
                   <Link className="btn btn-outline-light fs-5 px-4 py-2 mb-sm-0 me-sm-3 me-lg-4" href="#latest-reports" role="button">Latest CO<sub>2</sub> Reports</Link>
