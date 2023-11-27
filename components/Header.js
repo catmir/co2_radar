@@ -10,7 +10,7 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark fs-5 fixed-top py-3">
                 <div className="container align-items-top">
                     <Link className="navbar-brand" id="navbarBrand" href="/">
-                        <Image src="/logo-co2-radar.svg" alt="Logo CO2 Radar" width={30} height={30}/>
+                        <Image src="/logo-co2-radar.png" alt="Logo CO2 Radar" width={30} height={30}/>
                         <span className="ms-2">CO<sub>2</sub> Radar</span>
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
