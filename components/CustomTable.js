@@ -1,4 +1,4 @@
-import data from '@/public/data.json'
+import data from '@/data/data.json'
 import { useEffect, useState } from 'react';
 import DataTable from 'react-data-table-component';
 
